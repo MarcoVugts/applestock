@@ -5,7 +5,9 @@
   --border: #24262c;
   --text: #f2f2f3;
   --text-muted: #9a9ca3;
-  --accent: #00d1a1;
+  --accent: #ff9f0a;
+  --onchain: #0052ff;
+  --offchain: #ff9f0a;
 }
 
 * {
@@ -75,11 +77,11 @@ h1 {
 }
 
 .dot.onchain {
-  background: var(--accent);
+  background: var(--onchain);
 }
 
 .dot.market {
-  background: #6e7bff;
+  background: var(--offchain);
 }
 
 .chart-card {
