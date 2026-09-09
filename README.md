@@ -14,5 +14,6 @@ npm run dev
 
 ## Deploy
 
-Push to GitHub and import the repo in Vercel — it's a zero-config Next.js
-app, no build settings needed.
+Push to GitHub and import the repo in Vercel. Framework Preset must be set
+to **Next.js** (not "Other") and Root Directory to the repo root — otherwise
+Vercel expects a static `public/` output directory and the build fails.
