@@ -1,14 +1,10 @@
 export default function Home() {
   return (
     <main>
-      <p className="eyebrow">Live comparison</p>
       <h1>Apple stock: onchain vs. Wall Street</h1>
       <p className="subtitle">
-        Apple&apos;s tokenized stock trades around the clock onchain on Base,
-        while Nasdaq only trades during market hours. Both series here refresh
-        every 15 minutes, so you can watch the onchain price keep moving
-        pre-market, after-hours, and around events like an Apple keynote
-        &mdash; while the traditional market is closed.
+        AAPL on Base, trading 24/7, vs. Nasdaq, market hours only &mdash; both
+        refreshed every 15 minutes.
       </p>
 
       <div className="legend">
